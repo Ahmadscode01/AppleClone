@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto-Regular.ttf");     
+}
+
+
 *{
     margin: 0%;
 
@@ -5,11 +11,12 @@
 
 body{
     background-color: white;
+    font-family: Roboto;
 
 }
 
 header{
-    background-color: rgba(128, 128, 128, 0.051);
+    background-color: #F5F5F7;
     margin-top: 0px;
     padding: 0.5em;
     display: flex;
@@ -62,7 +69,7 @@ nav img{
 
 #ribbon a{
     text-decoration: none;
-    color: rgb(70, 108, 179);
+    color:#0071E3;
 }
 
 #ribbon a:hover{
@@ -71,15 +78,15 @@ nav img{
 
 #iapple{
     display: flex;
-    background-image: url(macbook\(1\).jpg);
+    background-image: url(16prappleweb.jpg);
     background-position: center;
     height: 35em;
     width: auto;
-    background-size: 80em;
+    background-size: 150em;
     margin-top: 1.5em;
     color: white;
     justify-content: center;
-    font-family: sans-serif;
+    font-family: Roboto;
     flex-wrap: wrap;
     cursor: pointer;
    
@@ -88,7 +95,7 @@ nav img{
 
 #iapple #heading h1 {
     display: flex;
-    font-size: 3.3em;
+    font-size: 3em;
     margin-top: 0.7em;
     justify-content: center;
 }
@@ -98,7 +105,7 @@ nav img{
     font-weight:lighter;
     margin-top: 0em;
     justify-content: center;
-    font-size: 2.9em;
+    font-size: 1.5em;
 
 }
 
@@ -118,7 +125,6 @@ nav img{
     width:7em ;
     font-size: 1em;
     padding: 1em;
-    border: 1px solid rgb(58, 58, 255);
     border-radius: 2em;
     gap: 2em;
     color: white;
@@ -127,7 +133,7 @@ nav img{
 
 #buttons #more{
     display: flex;
-    background-color: rgb(88, 88, 255);
+    background-color:#0077ED;
     color: white;
     justify-content: center;
     
@@ -142,12 +148,12 @@ nav img{
 }
  
 #buttons #more:hover{
-    background-color: rgb(99, 99, 255);
+    background-color:#0080ff;
 
 }
 
 #buttons #buy:hover{
-    background-color: rgb(88, 88, 255);
+    background-color:0080ff;
     transition: 0.3s;
 }
 
@@ -155,15 +161,15 @@ nav img{
 
 #iphone{
     display: flex;
-    background-image: url(11pro\ \(1\).jpg);
+    background-image: url(16appleweb.jpg);
     background-position: center;
     height: 35em;
     width: auto;
-    background-size: 99em;
+    background-size: 152em;
     margin-top: 1.5em;
     color: white;
     justify-content: center;
-    font-family: sans-serif;
+    font-family: Roboto;
     flex-wrap: wrap;
     cursor: pointer;
     margin-bottom: 3em;
@@ -173,7 +179,7 @@ nav img{
 
 #iphone #heading h1 {
     display: flex;
-    font-size: 3.3em;
+    font-size: 3em;
     margin-top: 0.7em;
     justify-content: center;
 }
@@ -183,7 +189,7 @@ nav img{
     font-weight:lighter;
     margin-top: 0em;
     justify-content: center;
-    font-size: 2.9em;
+    font-size: 1.5em;
 
 }
 
@@ -203,7 +209,7 @@ nav img{
     width:7em ;
     font-size: 1em;
     padding: 1em;
-    border: 1px solid rgb(58, 58, 255);
+    border: 1px solid #0077ED;
     border-radius: 2em;
     gap: 2em;
     color: white;
@@ -212,7 +218,7 @@ nav img{
 
 #buttons #more{
     display: flex;
-    background-color: rgb(88, 88, 255);
+    background-color: #0077ED;
     color: white;
     justify-content: center;
     
@@ -227,22 +233,135 @@ nav img{
 }
  
 #buttons #more:hover{
-    background-color: rgb(99, 99, 255);
+    background-color:#0080ff;
 
 }
 
 #buttons #buy:hover{
-    background-color: rgb(88, 88, 255);
+    background-color: #0077ED;
     transition: 0.3s;
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+#gift{
+    display: flex;
+    background-image: url(applegift.jpg);
+    background-position: center;
+    height: 35em;
+    width: auto;
+    background-size: 152em;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: baseline;
+    font-family: Roboto;
+    flex-wrap: wrap;
+    cursor: pointer;
+   
+    
+}
+
+#gift #heading h1 {
+    display: flex;
+    font-size: 3em;
+    margin-top: 7.5em;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#gift #heading h3{
+    display: flex;
+    font-weight:lighter;
+    margin-top: 0em;
+    justify-content: center;
+    font-size: 1.5em;
+
+}
+
+#gift #buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    text-align: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+#buttons a{
+    display:flex ;
+    list-style-type: none;
+    text-decoration: none;
+    width:7em ;
+    font-size: 1em;
+    padding: 0.5em;
+    border: 1px solid #0077ED;
+    border-radius: 2em;
+    gap: 2em;
+    color: white;
+    margin-top: 1em;
+}
+
+#buttons #more{
+    display: flex;
+    background-color: #0077ED;
+    color: white;
+    justify-content: center;
+    
+    
+}
+
+#buttons #buy{
+  display: flex;
+  justify-content: center;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+}
+ 
+#buttons #more:hover{
+    background-color:#0080ff;
+
+}
+
+#buttons #buy:hover{
+    background-color: #0077ED;
+    transition: 0.3s;
+}
+/*-------------------------------------------------------------------------------------------------*/
+#air ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    height: 30em;
+    width: 50em;
+    top:0px;
+    
+}
+
+#air img{
+    width: 5em;
 }
 
 
+#ipad{
+    background: url(ipadairweb.jpg);
+    background-size: 30em;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: ;
+    height: 10em;
+    width: auto;
+}
 
-
-
-
-
-
+#airpods{
+    background: url(airpodsweb.jpg);
+    background-size: 30em;
+    height: 10em;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+/*--------------------------------------------------------------------------------------------------*/
 footer{
     background-color: rgba(0, 0, 0, 0.116);
     padding: 0.5em;
@@ -250,19 +369,20 @@ footer{
     font-family: sans-serif;
     opacity: 50%;
     font-weight: lighter;
-    font-size: 0.8em;
+    font-size: 0.7em;
     justify:left;
     text-align: left;
     justify-content: space-around;
     word-spacing: 0.1em;
     line-height: 1.3em;
+    margin-top: 10em;
 }
 
 #para p{ 
     display: flex;
     justify-content: space-between;
-    margin-left: 15em;
-    margin-right: 15em;
+    margin-left: 30em;
+    margin-right: 30em;
     margin-top: 1em;
 
 }
@@ -284,4 +404,8 @@ footer{
 
 #table ul li:hover{
     text-decoration: underline;
+}
+
+#table #para{
+    word-spacing:0px ;
 }
