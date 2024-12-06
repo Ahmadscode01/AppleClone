@@ -15,6 +15,24 @@ body{
 
 }
 
+.by{
+   
+    display: flex;
+    justify-content: center;
+    
+}
+
+.by a{
+    text-decoration: none;
+    margin-left: 0.2em;
+    color:#0077ED ;
+
+}
+
+.by a:hover{
+    text-decoration: underline;
+}
+
 header{
     background-color: #F5F5F7;
     margin-top: 0px;
